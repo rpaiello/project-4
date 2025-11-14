@@ -39,7 +39,7 @@ function Dashboard({content, username, logoutFunc} : any) {
     return (
         <>
             <header>
-                <b>DarkAsk</b>{" /"} logged in as <b>{username}</b>{" /"} <button onClick={handleLogout}>logout?</button>
+                <span className="cf big">DarkAsk</span>{" /"} logged in as <b>{username}</b>{" /"} <button onClick={handleLogout}>logout?</button>
             </header>
             <div className="container">
                 <div className="sidebar">
@@ -55,7 +55,7 @@ function Dashboard({content, username, logoutFunc} : any) {
                     )}
                 </div>
                 <div className="maindisplay">
-                    <div className="cf big">{content[selected.current].title}</div>
+                    <div className="cf bigger">{content[selected.current].title}</div>
                     posted by <b>{content[selected.current].poster}</b>
                     <hr />
                     <p>{content[selected.current].desc}</p>

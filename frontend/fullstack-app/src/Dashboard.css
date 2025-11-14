@@ -4,15 +4,22 @@
 }
 
 header {
+  background: #15394d;
+  background: linear-gradient(90deg,rgba(21, 57, 77, 1) 0%, rgba(237, 221, 83, 1) 100%);
   border-bottom: 3px solid black;
   padding: 15px;
+  color: white;
 }
 .cf {
   font-family: SeeFits;
 }
 
 .big {
-  font-size: 28px;
+  font-size: 18px;
+}
+
+.bigger {
+  font-size: 36px;
 }
 
 .acard {
