@@ -35,6 +35,7 @@ function AddEmployeeForm({onEmployeeAdded} : any) {
             setName('');
             setSalary(0);
             setDepartment(0);
+            
         } catch (error) {
             console.error(error)
         }

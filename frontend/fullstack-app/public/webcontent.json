@@ -1,0 +1,39 @@
+[
+    {
+        "qid" : 0,
+        "poster" : "admin",
+        "title" : "Welcome to ScungleAsk",
+        "desc" : "We're glad you're here!\nDarkAsk aims to be Usenet's #1 source on Dark City, the hit multiplayer MMORPG by ScungSoft. Click on any of the questions on the left to get started.",
+        "answers" : []
+    },
+    {
+        "qid" : 1,
+        "poster" : "babybell",
+        "title" : "Weird NPC in Prescot Square",
+        "desc" : "Every time I go to prescot square there's this wierd guy standing on top of the fountain? I don't know how you climb up there. He wears the full trenchcoat set and stares at me the entire time I'm there while just repeatedly putting \"...\" in the chat. And he is always there. Is this part of the halloween event?",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "mphillips",
+                "desc" : "If this is a new NPC, I have never seen him, nor is there any information about him in the patch notes for the halloween event."
+            },
+            {
+                "aid" : 1,
+                "poster" : "JoNnYxXx",
+                "desc" : "youre game is cursed lol your going to die kid"
+            },
+            {
+                "aid" : 2,
+                "poster" : "Mr_Shade",
+                "desc" : "..."
+            }
+        ]
+    },
+    {
+        "qid" : 2,
+        "poster" : "admin",
+        "title" : "Hello world!",
+        "desc" : "example question 2",
+        "answers" : []
+    }
+]

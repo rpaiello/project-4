@@ -1,0 +1,16 @@
+.sidebar {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.qcard {
+    margin-bottom: 20px;
+    border: 2px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.qcard.selected {
+  background-color: yellow;
+}
