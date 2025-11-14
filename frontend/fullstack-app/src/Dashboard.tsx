@@ -39,20 +39,23 @@ function Dashboard({content, username, logoutFunc} : any) {
     return (
         <>
             <header>
-                <b>DarkAsk</b> logged in as <b>{username}</b> <button onClick={handleLogout}>logout?</button>
+                <b>DarkAsk</b>{" /"} logged in as <b>{username}</b>{" /"} <button onClick={handleLogout}>logout?</button>
             </header>
-            <div>
+            <div className="container">
                 <div className="sidebar">
                     {content.filter((z: Question) => z.qid != 0).map((x: Question) => 
-                        <div className={`qcard${x.qid === selected.current ? " selected" : ""}`} key={x.qid} onClick={() => setSelected({current: x.qid, previous: selected.current})}>
-                            <b>{x.title}</b>
-                            <br />
-                            <span className="subtitle">{x.poster}</span>
-                        </div>
+                        <>
+                            {x.qid != 1 ? <hr /> : <></>}
+                            <div className={`qcard${x.qid === selected.current ? " selected" : ""}`} key={x.qid} onClick={() => setSelected({current: x.qid, previous: selected.current})}>
+                                <b>{x.title}</b>
+                                <br />
+                                <span className="subtitle">{x.poster}</span>
+                            </div>
+                        </>
                     )}
                 </div>
                 <div className="maindisplay">
-                    <h2>{content[selected.current].title}</h2>
+                    <div className="cf big">{content[selected.current].title}</div>
                     posted by <b>{content[selected.current].poster}</b>
                     <hr />
                     <p>{content[selected.current].desc}</p>

@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import type { User } from "./App";
+import './Login.css';
+
 const BASE_API_URL = "http://localhost:3000";
 
 function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: any) {
@@ -99,7 +101,7 @@ function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: an
     }
 
     if (mode == 'login') return (
-        <>
+        <div className="container">
             <button onClick={handleModeChange}>register new user</button>
             <br />
             <form action="/" onSubmit={handleLogin}>
@@ -113,9 +115,9 @@ function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: an
                 <br />
                 <input type="submit" id="submit" disabled={Boolean(errMsg[0] || errMsg[1] || errMsg[2])} />
             </form>
-        </>
+        </div>
     ); else return (
-        <>
+        <div className="container">
         <>
             <button onClick={handleModeChange}>login existing user</button>
             <br />
@@ -135,7 +137,7 @@ function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: an
                 <input type="submit" id="submit" disabled={Boolean(errMsg[0] || errMsg[1] || errMsg[2])} />
             </form>
         </>
-        </>
+        </ div>
     )
 }
 

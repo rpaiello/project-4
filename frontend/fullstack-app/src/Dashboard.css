@@ -1,16 +1,59 @@
+@font-face {
+  font-family: SeeFits;
+  src: url(./assets/SeeFitsv2.ttf);
+}
+
+header {
+  border-bottom: 3px solid black;
+  padding: 15px;
+}
+.cf {
+  font-family: SeeFits;
+}
+
+.big {
+  font-size: 28px;
+}
+
+.acard {
+  background-color: rgb(255, 247, 179);
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.subtitle {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
 .sidebar {
-    width: 30%;
-    height: 100%;
-    float: left;
+    width: 20%;
+    flex: 0 0 auto;
+    padding: 20px;
 }
 
 .qcard {
     margin-bottom: 20px;
-    border: 2px gray;
+    border: 2px solid gray;
     border-radius: 5px;
     background-color: white;
+    padding: 5px;
+    background-color: rgb(37, 37, 37);
+    color: white;
 }
 
 .qcard.selected {
-  background-color: yellow;
+  background-color:rgb(255, 203, 72);
+  color: rgb(41, 41, 41);
+}
+
+.maindisplay {
+  margin-top: 10px;
+  width: 75%;
 }
