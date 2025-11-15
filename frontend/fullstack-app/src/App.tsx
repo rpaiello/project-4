@@ -44,7 +44,6 @@ function App() {
 
   if (!isLogged) return (
     <>
-      <h1>LOGIN</h1>
       <Login globalLoginFunc={setGlobalLoginStatus} globalUsernameFunc={setGlobalUsername} registerFunc={handleNewUserRegistered} userList={users} />
     </>
   ); else return (

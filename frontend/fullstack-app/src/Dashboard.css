@@ -64,3 +64,13 @@ header {
   margin-top: 10px;
   width: 75%;
 }
+
+.form-offset {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p {
+  text-align: justify;
+}

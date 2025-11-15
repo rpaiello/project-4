@@ -32,8 +32,14 @@
     {
         "qid" : 2,
         "poster" : "admin",
-        "title" : "Hello world!",
-        "desc" : "example question 2",
-        "answers" : []
+        "title" : "Concerning discussion of trading exploits",
+        "desc" : "We really really shouldn't have to say this, but we've decided to make this post to clear things up given that a certain few users have tried to toe the line. This is a reminder that any and all discussion, conversation, or any type of discourse whatsoever concerning any and all trading exploits, item duplication glitches, account buying or selling, etc. is STRICTLY PROHIBITED on this website. Discussion posts or replies concerning these topics will be promptly removed by our moderators and sent to our contact at ScungSoft.Additionally, if you recieve any private messages from other users related to the above, we encourage you to flag and report them. We have reason to believe that a large percentage of discussion about hacks, etc. on this site are taking place through user PMs.Please use your brains before posting. Nobody wants a repeat of last April. - Phillip, JBrenZ, 990_kat and the rest of the mod team",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "hobbyist_stumpwork",
+                "dec" : "I don't know why "
+            }
+        ]
     }
 ]

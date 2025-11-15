@@ -67,7 +67,7 @@ function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: an
                 }
             }
         }
-        if (!loginFlag) alert("This account doesn't exist!");
+        if (!loginFlag) alert("Incorrect username or password!");
     }
 
     const handleRegistration = async (e: any) => {
@@ -101,41 +101,65 @@ function Login({globalLoginFunc, globalUsernameFunc, registerFunc, userList}: an
     }
 
     if (mode == 'login') return (
-        <div className="container">
-            <button onClick={handleModeChange}>register new user</button>
-            <br />
-            <form action="/" onSubmit={handleLogin}>
-                <label htmlFor="uname">Username</label>
-                <input type="text" placeholder="myname123" value={uname} onChange={handleFormChange} id="uname" required /> {uname.length}
-                <span className="error">{errMsg[0]}</span>
-                <br />
-                <label htmlFor="upass">Password</label>
-                <input type="password" placeholder="••••••" value={upass[0]} onChange={handleFormChange} id="upass" required /> {upass[0].length}
-                <span className="error">{errMsg[1]}</span>
-                <br />
+        <div className="container2">
+            <div className="logoBox">
+                <img src="./da-logo.png" alt="DarkAsk logo" /> 
+            </div>
+            <div className="form-offset">
+                <div className="container between">
+                    <div className="big"><b>Login</b></div>
+                    <button onClick={handleModeChange}>Register New User</button>
+                </div>
+                <hr />
+                <form action="/" onSubmit={handleLogin}>
+                <div className="form-field">
+                    <label htmlFor="uname">Username</label> <br />
+                    <input type="text" placeholder="myname123" value={uname} onChange={handleFormChange} id="uname" required /> {uname.length}{' '}
+                    <span className="error">{errMsg[0]}</span>
+                </div>
+                <div className="form-field">
+                    <label htmlFor="upass">Password</label> <br />
+                    <input type="password" placeholder="••••••" value={upass[0]} onChange={handleFormChange} id="upass" required /> {upass[0].length}{' '}
+                    <span className="error">{errMsg[1]}</span>
+                </div>
+                <hr />
                 <input type="submit" id="submit" disabled={Boolean(errMsg[0] || errMsg[1] || errMsg[2])} />
             </form>
+            </div>
         </div>
     ); else return (
-        <div className="container">
+        <div className="container2">
         <>
-            <button onClick={handleModeChange}>login existing user</button>
-            <br />
+            <div className="logoBox">
+                <img src="./da-logo.png" alt="DarkAsk logo" /> 
+                <br />
+            </div>
+            <div className="form-offset">
+                <div className="container between">
+                    <div className="big"><b>Register Account</b></div>
+                    <button onClick={handleModeChange}>Login Existing User</button>
+                </div>
+                <hr />
             <form action="/" onSubmit={handleRegistration}>
-                <label htmlFor="uname">Username</label>
-                <input type="text" placeholder="myname123" value={uname} onChange={handleFormChange} id="uname" required /> {uname.length}
-                <span className="error">{errMsg[0]}</span>
-                <br />
-                <label htmlFor="upass">Password</label>
-                <input type="password" placeholder="••••••" value={upass[0]} onChange={handleFormChange} id="upass" required /> {upass[0].length}
-                <span className="error">{errMsg[1]}</span>
-                <br />
-                <label htmlFor="retypeupass">Retype Password</label>
-                <input type="password" placeholder="••••••" value={upass[1]} onChange={handleFormChange} id="retypeupass" required /> {upass[1].length}
-                <span className="error">{errMsg[2]}</span>
-                <br />
+                <div className="form-field">
+                    <label htmlFor="uname">Username</label><br />
+                    <input type="text" placeholder="myname123" value={uname} onChange={handleFormChange} id="uname" required /> {uname.length}{' '}
+                    <span className="error">{errMsg[0]}</span>
+                </div>
+                <div className="form-field">
+                    <label htmlFor="upass">Password</label><br />
+                    <input type="password" placeholder="••••••" value={upass[0]} onChange={handleFormChange} id="upass" required /> {upass[0].length}{' '}
+                    <span className="error">{errMsg[1]}</span>
+                </div>
+                <div className="form-field">
+                    <label htmlFor="retypeupass">Retype Password</label><br />
+                    <input type="password" placeholder="••••••" value={upass[1]} onChange={handleFormChange} id="retypeupass" required /> {upass[1].length}{' '}
+                    <span className="error">{errMsg[2]}</span>
+                </div>
+                <hr />
                 <input type="submit" id="submit" disabled={Boolean(errMsg[0] || errMsg[1] || errMsg[2])} />
             </form>
+            </div>
         </>
         </ div>
     )

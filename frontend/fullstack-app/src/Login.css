@@ -1,0 +1,27 @@
+.container2 {
+    padding: 10%;
+    width: 80%;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.logoBox {
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 41%, rgba(237, 221, 83, 1) 100%);
+    padding: 15px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+label {
+    font-style: italic;
+}
