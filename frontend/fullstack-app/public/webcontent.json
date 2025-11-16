@@ -3,7 +3,7 @@
         "qid" : 0,
         "poster" : "admin",
         "title" : "Welcome to DarkAsk",
-        "desc" : "We're glad you're here!\nDarkAsk aims to be Usenet's #1 source on Dark City, the hit multiplayer MMORPG by ScungSoft. Click on any of the questions on the left to get started.",
+        "desc" : "We're glad you're here, gangster!\nDarkAsk aims to be Usenet's #1 source on Dark City, the hit multiplayer MMORPG by ScungSoft. Click on any of the questions on the left to get started.",
         "answers" : []
     },
     {
@@ -38,7 +38,202 @@
             {
                 "aid" : 0,
                 "poster" : "hobbyist_stumpwork",
-                "dec" : "I don't know why "
+                "desc" : "I don't know why people are still pulling this crap, especially after the legendary banwaves back in '14. The price of .38 special still hasn't recovered :("
+            },
+            {
+                "aid" : 1,
+                "poster" : "JoNnYxXx",
+                "desc" : "doesnt matter, already sold my 500 contra 9 tommies good luck trying to find them all lmao"
+            },
+            {
+                "aid" : 2,
+                "poster" : "distantSelf",
+                "desc" : "Contraband-IX Tommyguns aren't even supposed to be in the game. They only existed due to a bug. I'd recommend not advertising your activities Jonny, assuming you haven't already been banned."
+            },
+            {
+                "aid" : 3,
+                "poster" : "satangrillcheese",
+                "desc" : "All my items have turned purple can somebody help me"
+            },
+            {
+                "aid" : 4,
+                "poster" : "eduard_hernandez2005",
+                "desc" : "Hi my brothers account was deleted even though he only duplicated ammo once 5 years ago he is really really really sorry he has learned his lesten can someone at scungsoft please unban him hes username is Sonicfan100Pro"
+            },
+            {
+                "aid" : 5,
+                "poster" : "jonas",
+                "desc": "Oh thank god i was so tired of the spam. Can you guys actually put your foot down this time."
+            }
+        ]
+    },
+    {
+        "qid" : 3,
+        "poster" : "distantSelf",
+        "title" : "[BUG] Game crashes randomly when using Emblazoned Makeshift Armor",
+        "desc" : "Title says it all. When I equip a full set of Emblazoned Makeshift Armor (it's Restricted 3 with the incognito modifier if it matters), after playing for some time my game crashes, usually while fighting enemies. Does anybody else have this issue?",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "MullenMullet",
+                "desc" : "Not exactly related but what the hell are you doing that you have Restricted 3 makeshift armor? If you're still playing Shanty Town missions to the point youre getting makeshift armor of that grade you need to MOVE ON. Emblazoned makeshift armor gives a +3 fire buff, but the emblazoned version of the Cop World armor in the very next area of the game gives a +10. And you get it in the middle of the campaign for that area, you don't have to replay any of the missions."
+            },
+            {
+                "aid" : 1,
+                "poster" : "distantSelf",
+                "desc" : "For your information, Shanty Town is my favorite borough of the game and I quite enjoy the narrative arc of Mopsy and his rag-tag crew. Additionally, I am trying to obtain a full set of every wearable item, weapon, and equipment in every grade so I can fill out the collection room in my hideout."
+            },
+            {
+                "aid" : 2,
+                "poster" : "1ueso10",
+                "desc" : "what class are you ? i have two characters, a snitch and a gunslinger and when i play as gunslinger my game crashes occasionally as well"
+            },
+            {
+                "aid" : 3,
+                "poster" : "mphillips",
+                "desc" : "Could it be something related to particles? I have heard of a few accounts of clients crashing due to the game having to render a huge amount of particles."
+            },
+            {
+                "aid" : 4,
+                "poster" : "distantSelf",
+                "desc" : "That was exactly it! I have this screensaver called \"3D Workers Island\" running in the background (it's really cool, you should download it) and I guess it was taking up enough of my memory that the screensaver, combined with the fire effects of the armor, was causing my game to crash."
+            }
+        ]
+    },
+    {
+        "qid" : 4,
+        "poster" : "stevenhere",
+        "title" : "Optimizing my snitch build for Duke",
+        "desc" : "So if i've got a snitch with 24 levels in slickness, 10 levels in shadowing, and 9 in silvertonguing should I be going CnD/hammer fan/vanish as my main loadout if I have larry's suede shoes and ultradark trenchcoat equipped? i've tried to follow advice from peoples blogs but I still can;t beat commissioner duke no matter how hard i try. How am i supposed to get to the rest of the multiplayer content if i cant get out of copworld",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "1ueso10",
+                "desc" : "is CnD in slot 1 or 3 ? snitches past level 20 get hidden pocket which reduces cooldown of ur third ability."
+            },
+            {
+                "aid" : 1,
+                "poster" : "MullenMullet",
+                "desc" : "You should be using the shimmering trench coat instead if you are playing as Snitch because of the disguise buff from 1.3.9."
+            },
+            {
+                "aid" : 2,
+                "poster" : "fatboyy_",
+                "desc" : "buy a respec ticket and put all your levels into verisimilitude, shit is so broken"
+            },
+            {
+                "aid" : 3,
+                "poster" : "satangrillcheese",
+                "desc" : "My character is purple idk why can someone help"
+            },
+            {
+                "aid" : 4,
+                "poster" : "Mighty-Ampersand",
+                "desc" : "U can cheese duke by poking in and out of the doorway of his office and sniping him in the head repeatedly with subsonic ammo, he doesnt get aggroed on you ever. If u dont want to do that use interrogate instead of vanish thats how I beat him the first time"
+            }
+        ]
+    },
+    {
+        "qid" : 5,
+        "poster" : "satangrillcheese",
+        "title" : "My guy and all my stuff has turned freaking purple",
+        "desc" : "So i dontknow if this is because he eated a weird food like some rotten eggz or wet beef or brown cream or munted liver from a trashcan but the gangster guy that ive been playing as for the last 30 years is FRUEAKING PURPLE. I logg'd on yesterday and hes purple and all of his stuff is purple too. its kinda funny tho loooool. Anyone else hanging it out purple style",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 1,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 2,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 3,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 4,
+                "poster" : "orghulu",
+                "desc" : "JESUS CHRIST DUDE WHAT DID YOU DO TO MY ACCOUNT HOLY SHIT"
+            },
+            {
+                "aid" : 5,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 6,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 7,
+                "poster" : "[deleted]",
+                "desc" : "This reply has been deleted by a moderator."
+            },
+            {
+                "aid" : 8,
+                "poster" : "admin",
+                "desc" : "To prevent further incident, we're locking this post. Affected users should contact ScungSoft customer support immediately."
+            }
+        ]
+    },
+    {
+        "qid" : 6,
+        "poster" : "TheSoftestVoice",
+        "title" : "what is the movie playing in the yellow district",
+        "desc" : "when you're in the movie theater in one of the yellow district missions there's this strange black and white movie playing on screen with a dancing lady and a crowd just staring at her. does anyone know what it's from?",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "TigerLord777",
+                "desc" : "Idk, I think they made it for the game tho"
+            },
+            {
+                "aid" : 1,
+                "poster" : "mphillips",
+                "desc" : "It's from a 1927 German expressionist film called \"Metropolis.\""
+            },
+            {
+                "aid" : 2,
+                "poster" : "subrange6-36",
+                "desc" : "Super mario-oo RPG / It is the only game just for meeee... IYKYK"
+            }
+        ]
+    },
+    {
+        "qid" : 7,
+        "poster" : "CaliDreaming_forever",
+        "title" : "Other players glitching into my hideout",
+        "desc" : "So I went to my hideout after doing the Administrative Sector boss mission and there's another player inside jumping around and dancing? I thought hideouts were completely localized singleplayer instances??!?",
+        "answers" : [
+            {
+                "aid" : 0,
+                "poster" : "JoNnYxXx",
+                "desc" : "its me lol im gonna steal your stuff :) oh wait you have nothing good lmao"
+            },
+            {
+                "aid" : 1,
+                "poster" : "mphillips",
+                "desc" : "This is a known bug, hopefully it gets patched in next month's update."
+            },
+            {
+                "aid" : 2,
+                "poster" : "kilotons",
+                "desc" : "Not to alarm you but if they're connecting to your hideout then they have your IP"
+            },
+            {
+                "aid" : 3,
+                "poster" : "Mr_Shade",
+                "desc" : "It was me, sorry dude!"
             }
         ]
     }

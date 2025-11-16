@@ -58,7 +58,7 @@ function Dashboard({content, username, logoutFunc} : any) {
                     <div className="cf bigger">{content[selected.current].title}</div>
                     posted by <b>{content[selected.current].poster}</b>
                     <hr />
-                    <p>{content[selected.current].desc}</p>
+                    <p className="dcard">{content[selected.current].desc}</p>
                     <hr />
                     {content[selected.current].answers.map((ans: Answer) => <div className="acard"><b>{ans.poster}</b><p>{ans.desc}</p></div>)}
                 </div>

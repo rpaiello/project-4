@@ -22,6 +22,14 @@ header {
   font-size: 36px;
 }
 
+.dcard {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 1em;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
 .acard {
   background-color: rgb(255, 247, 179);
   padding: 10px;
