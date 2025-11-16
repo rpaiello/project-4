@@ -1,10 +1,10 @@
 # project-4
 
 ## My sick web app
-Faux login system and website that queries SQL to get "account" information and React + Node.js Express + node-postgress to get that info and use it on a frontend web app. The "questions" on the site are actually fetched from a .json file.
+Faux login system and website that queries SQL with node-postgres to get "account" information and use it on an Express React web app. The "questions" on the site are actually fetched from a .json file.
 
 ### How to use
-1. Download and extract zip / clone this repository
+1. Download and extract zip OR clone this repository
 2. Create a local MySQL server under port 3000 and run `db-gen.sql` on this server.
 3. Change the `password` field in `backend/db.js` to the password of the root account of this server.
 4. Open two terminals (I used Git Bash, your mileage may vary) and navigate one to `frontend/fullstack-app` and the other to `backend`.
